@@ -39,9 +39,5 @@ public class DuplicateFile {
     public String getHash() {
         return hash.get();
     }
-
-    public void setHash(SimpleStringProperty hash) {
-        this.hash = hash;
-    }
      
 }

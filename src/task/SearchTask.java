@@ -33,7 +33,6 @@ public class SearchTask extends Task<Void> {
     private Label filesScannedLabel;
     private ObservableList<DuplicateFile> fileList = FXCollections.observableArrayList();
     private ObservableList<DuplicateFile> duplicateFileList = FXCollections.observableArrayList();
-    private HashSet<String> tempSet = new HashSet<>();
     
     public SearchTask(String directory, TableView table, ProgressBar progressBar) {
         this.directory = directory;

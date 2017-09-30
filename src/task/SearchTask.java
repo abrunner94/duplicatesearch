@@ -30,7 +30,6 @@ public class SearchTask extends Task<Void> {
     private String directory;
     private TableView table;
     private ProgressBar progressBar;
-    private Label filesScannedLabel;
     private ObservableList<DuplicateFile> fileList = FXCollections.observableArrayList();
     private ObservableList<DuplicateFile> duplicateFileList = FXCollections.observableArrayList();
     
